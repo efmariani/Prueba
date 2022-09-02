@@ -1,0 +1,171 @@
+body{
+    background-color: #161717;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;   
+    width: 450px;
+    margin: auto;
+}
+
+#titulo{
+    text-align:center;
+    color: white;
+}
+
+#opcion1{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+#opcion1a{
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#opcion1a:hover{
+    opacity: 0.75;
+}
+
+
+#opcion1a picture img {
+    width: 75%;
+}
+
+#opcion1a span{
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+#opcion1a picture{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#opcion1b{
+    background-color: #bbb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#opcion1b:hover{
+    opacity: 0.75;
+}
+
+#division{  
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+#division hr{
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+#division span{
+    color: #8b8b8b;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+#section-inputs{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#section-inputs label input{
+    width: 80%;
+}
+
+label input{
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    color: white;
+}
+
+label span{
+    font-weight: 700;
+    color: white;
+}
+
+label input:hover{
+    background-color: #454045;
+    border: solid 1 px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+label input:focus{
+    background-color: #454045;
+    border: solid 1 px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+#checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+
+#checkbox-label input{
+    width: 20px;
+} 
+
+#checkbox-label span{
+    font-weight: 400;
+} 
+
+#crear {
+    background-color: #ea4c89;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+#crear:hover{
+    opacity: 0.75;
+}
+
+
